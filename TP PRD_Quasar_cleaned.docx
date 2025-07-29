@@ -1,0 +1,184 @@
+  4.17.4 Touch Panel
+  4.17.4.1 Hardware Requirements
+  4.17.4.1.2 Palm Rejection
+  Quasar-5139 - Palm Rejection
+The touch panel shall support palm rejection for both right and left hand users at all times.
+
+
+ Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.3 Light Transmission
+  Quasar-5141 - Light Transmission.
+The touch panel shall have minimum 85% light transmission. Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.4 Finger Detection
+  Quasar-5143 - Device shall be able to detect the presence of a human finger at no more than 1...
+Device shall be able to detect the presence of a human finger at no more than 1.0 mm above the surface of the touchpanel.  Any activation's occurring outside 1.0 mm distance from the touchpanel shall be considered a false activation.
+ Shall Have,  Req't Team Approved,  System Requirement
+  Quasar-5144 - Touch Performance Accuracy
+Base SKU: Touch Panel Shall Support accuracy to meet Center +/-1.5mm , border +/-2mm
+
+Premium SKU: Touch Panel Shall Support accuracy to meet non-border area +/-1mm , border area +/-2mm  (border area to be defined, is there a test plan for this?) Shall Have,  Req't Team Approved,  System Requirement
+  Quasar-5145 - Touch Performance Linearity
+Touch panel shall Support linearity to meet Non-border +/-1.5mm , border +/-1.5mm Shall Have,  Req't Team Approved,  System Requirement
+  Quasar-5146 - Touch Performance Jitter
+Base SKU: Touch Panel Shall support Jitter to meet +/- 1.5mm
+
+Premium SKU: Touch Panel Shall support Jitter, the distance between any two reported positions shall not exceed 1.0 mm 
+ Shall Have,  Req't Team Approved,  System Requirement
+  Quasar-5147 - Touch Performance two Finger Separation
+Base SKU: Touch panel Shall support two finger separation < 20mm
+
+Premium SKU: Touch panel Shall support nearest two finger separation <12mm
+ Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.5 False Activation's
+  Quasar-5149 - False activation
+Device shall have no false activation across the working environmental conditions listed in the  PRD “Environmental” section 4.5
+
+ Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.6 Newton Rings
+  Quasar-5151 - Newton Rings
+No Newton Rings shall appear under the following test condition:
+
+The terminal shall be operating within 20-25 deg C, then view the touch panel at 45deg angle using a 300 ~ 500 lx light source (white fluorescent light, 3 wavelength fluorescent light or sunlight), which is positioned perpendicular to the touch panel.
+ Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.7 ITO Lines
+  Quasar-5153 - ITO Lines
+The touch panel's ITO lines shall not be visible at normal viewing angles.
+
+Note: the intent of this requirement is to not obstruct the user from viewing the display. Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.8 Gorilla Glass
+  Quasar-5155 - Gorilla Glass
+Base SKU: The touch screen shall use Gorilla Glass 5 (or equivalent or better) for rugged construction.
+
+Premium SKU: The touch screen shall use Gorilla Glass 5 (or equivalent or better) for rugged construction. Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.10 Wake Up Time
+  Quasar-5162 - Touch panel Wake up time
+The touch panel shall be able to transition from an off state to full function in less than 100 ms at room temperature. Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.11 Cursor Reporting
+  4.17.4.1.11.1 Latency to First Cursor Report
+  Quasar-5165 - Touch panel cursor report time
+The touch panel shall have a report time from touchdown <= 25mS at room temperature ( applied to panel to first position report). Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.11.2 Update Latency
+  Quasar-5167 - Touch panel Latency
+The touch panel shall have an update of position after touchdown <=15mS at room temperature. Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.11.3 Update Rate
+  Quasar-5169 - Touch Panel Update Rate
+Base SKU: The touch in-cell panel shall have a continuous sample reporting rate same as refresh rate.
+
+Premium SKU: The touch panel shall have a continuous sample reporting rate of 100Hz to support, signature capture Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.12 Resolution
+  Quasar-5171 - Touch screen Density/Resolution
+The touch screen shall have a reporting Density/Resolution same as display resolution, as a minimum. Shall Have,  Req't Team Approved,  System Requirement
+  Quasar-5174 - Touch Panel Desense -No Impact
+The Touch panel shall not experience any drop touches (gestures), missed touches, or ghost/false touches during the following interference conditions:
+1) Conducted Susceptability: 3V rms (150K - 80MHz) AM Modulated 80% 1KHz. 
+2) EFT
+ Shall Have,  Req't Team Approved,  System Requirement
+  Quasar-5175 - Touch Panel Desense - Low Impact
+The Touch panel shall not experience significant degradation and no ghost/false at 10Vrms (150K - 80MHz) AM Modulated 80% 1KHz conducted susceptibility.
+ Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.14 Touch Panel - Fingerprint Resistance
+  Quasar-5177 - Oleophobic coating
+The top outside or exposed surface of the touch panel on the Device shall have an oleophobic coating to resist the buildup of oil (from fingers) on the panel.  The oleophobic coating will also make it possible to clean the screen of any oil deposits by gently wiping a clean dry non-abrasive cloth across the panel surface. Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.15 Glove Types
+  Quasar-5179 - Gloves Type
+Base SKU:
+
+Device shall support the following gloves
+Index  	Description 	Image 	Material 
+1 	Light weight nylon gloves  
+
+Example:
+MaxiFlex Ultimate  Palm coating, 1mm thickness, stretch-nylon 34-874	 	Nylon Liner with Lycra, Black Micro-Foam Coated Palm and Finger Tips
+2 	NOT SUPPORTED 
+
+Leather work gloves
+
+Example:
+PIP® Economy Grade Shoulder Split Cowhide Leather Reinforced Palm Glove 85-7500P	 	Cowhide Leather 
+3 	Latex and Nitrile Gloves up to 5mils thick
+
+Example:
+Ambi-dex® Food Grade Disposable Nitrile Glove, Powder Free with Textured Grip - 4 Mil 63-532PF	 	Latex and Nitrile
+4 	Knit Nylon Glove with Nitrile coating
+
+Example:
+MaxiFlex® Elite™ Ultra Light Weight Seamless Knit Nylon Glove with Nitrile Coated MicroFoam Grip on Palm & Fingers 34-274	 	Knit Nylon Glove with Nitrile Coated Micro-Foam Grip on Palm & Fingers
+5 	NOT SUPPORTED 
+
+Knit Nylon Glove with Polyurethane coating
+
+Example:
+G-Tek® NPG
+Seamless Knit Nylon Glove with Polyurethane Coated Smooth Grip on Palm & Fingers 33-G125	 	Knit Nylon Glove with Polyurethane Coated Smooth Grip on Palm & Fingers
+6 	NOT SUPPORTED 
+
+Cotton/Polyester Gloves
+
+Example:
+Sure Knit Economy 7-gauge Cotton/Polyester Gloves SQ	 	Cotton/Polyester blend
+7 	NOT SUPPORTED  
+
+Cowgrain Leather Fitters Work Glove (Freezer)
+
+Example:
+Endura Fully Fleece-Lined Cowgrain Gloves - 76YBDFL	 	Leather. Full cotton-fleece lining for warmth.
+
+ (all can be ordered at http://www.gloves-online.com/)
+
+Premium SKU:
+Device shall support the following gloves
+Index  	Description 	Image 	Material 
+1 	Light weight nylon gloves  
+
+Example:
+MaxiFlex Ultimate  Palm coating, 1mm thickness, stretch-nylon 34-874	 	Nylon Liner with Lycra, Black Micro-Foam Coated Palm and Finger Tips
+2 	Leather work gloves
+
+Example:
+PIP® Economy Grade Shoulder Split Cowhide Leather Reinforced Palm Glove 85-7500P	 	Cowhide Leather 
+3 	Latex and Nitrile Gloves up to 5mils thick
+
+Example:
+Ambi-dex® Food Grade Disposable Nitrile Glove, Powder Free with Textured Grip - 4 Mil 63-532PF	 	Latex and Nitrile
+4 	Knit Nylon Glove with Nitrile coating
+
+Example:
+MaxiFlex® Elite™ Ultra Light Weight Seamless Knit Nylon Glove with Nitrile Coated MicroFoam Grip on Palm & Fingers 34-274	 	Knit Nylon Glove with Nitrile Coated Micro-Foam Grip on Palm & Fingers
+5 	Knit Nylon Glove with Polyurethane coating
+
+Example:
+G-Tek® NPG
+Seamless Knit Nylon Glove with Polyurethane Coated Smooth Grip on Palm & Fingers 33-G125	 	Knit Nylon Glove with Polyurethane Coated Smooth Grip on Palm & Fingers
+6 	Cotton/Polyester Gloves
+
+Example:
+Sure Knit Economy 7-gauge Cotton/Polyester Gloves SQ	 	Cotton/Polyester blend
+7 	Cowgrain Leather Fitters Work Glove (Freezer)
+
+Example:
+Endura Fully Fleece-Lined Cowgrain Gloves - 76YBDFL	 	Leather. Full cotton-fleece lining for warmth.
+
+ (all can be ordered at http://www.gloves-online.com/) Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.16 Touch Screen - Water Rejection & Immunity
+  Quasar-5181 - Water Rejection
+Device  shall provide no false activations of the touchscreen or rejection of valid inputs after removal from an IPX5 water test enclosure.  Once removed from the test enclosure, there will be no water traveling across the screen.
+
+Note :"Moisture support tested according to below spec
+1. Water drop test (4x10mm): 
+4x10mm water drops placed on screen. Must be able to draw around the water drops with no broken lines
+2. Water drop test (1x10mm):
+1x10mm water drop placed on screen. Must have no ghosting when move finger through the water. After wiping must operate correctly
+3. Spray test (3mm):
+Spray on screen, and check that normal touch operation is possible for 60 seconds. After wiping must have normal touch operation
+4. Rain drops
+Pour water drops to screen from a container having a hole of dia. approx. 2.5mm. Check that the drops are not causing touches 
+
+Tested but operation not quaranteed:
+5. Touch in large area of water
+Apply>30mm pool of moisutre on screen. Place touch directly in moisture. Touch should be reported with no ghosts. After wiping must have normal touch operation Shall Have,  Req't Team Approved,  System Requirement
+  4.17.4.1.17 Touch Panel - Screen Protector
+  Quasar-5183 - Screen Protector Compatibility
+The touch panel shall be compatible with a glass screen protector without degradation in finger performance.  
+
+Note: impact on glove performance shall be evaluated and possibly a screen protector mode for glove/finger mode made be needed. Shall Have,  Req't Team Approved,  System Requirement
+
